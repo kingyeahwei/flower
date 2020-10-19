@@ -1,22 +1,28 @@
 <view>
   <swiper indicator-dots="{{true}}" autoplay="{{true}}" vertical="{{false}}" circular="{{true}}" interval="{{3000}}">
-    <swiper-item><image src="/images/bestplayers.png"></image></swiper-item>
-    <swiper-item><image src="/images/lpl.png"></image></swiper-item>
-    <swiper-item><image src="/images/jumpfly.png"></image></swiper-item>
+    <swiper-item>
+      <image src="/images/bestplayers.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/lpl.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/jumpfly.png"></image>
+    </swiper-item>
   </swiper>
-  <view>
-    <view>
-      <image src="/images/avatar/3.png"></image>
-      <text>Nov 18 2020</text>
+  <view class="post-container">
+    <view class="post-author-date">
+      <image class="post-author" src="/images/avatar/3.png"></image>
+      <text class="post-date">Nov 18 2020</text>
     </view>
-    <text>2020LPL夏季赛季季后赛观赛指南</text>
-    <image src="/images/lpl.png"></image>
-    <text>公司拥有500万开发者用户，几十万应用案例、10亿手机端月活用户，数千款uni-app插件、70+微信/qq群。阿里小程序工具官方内置uni-app（详见），腾讯课堂官方为uni-app录制培训课程（详见），开发者可以放心选择。</text>
-    <view>
-      <image src="/images/icon/chat.png"></image>
-      <text>92</text>
-      <image src="/images/icon/view.png"></image>
-      <text>102</text>
+    <text class="post-title">2020LPL夏季赛季季后赛观赛指南</text>
+    <image class="post-image" src="/images/lpl.png"></image>
+    <text class="post-content">公司拥有500万开发者用户，几十万应用案例、10亿手机端月活用户，数千款uni-app插件、70+微信/qq群。阿里小程序工具官方内置uni-app（详见），腾讯课堂官方为uni-app录制培训课程（详见），开发者可以放心选择。</text>
+    <view class="post-like">
+      <image class="post-like-image" src="/images/icon/chat.png"></image>
+      <text class="post-like-font">92</text>
+      <image class="post-like-image" src="/images/icon/view.png"></image>
+      <text class="post-like-font">102</text>
     </view>
   </view>
 </view>
